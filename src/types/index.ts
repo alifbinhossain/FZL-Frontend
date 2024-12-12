@@ -10,3 +10,9 @@ export type IManagement = {
   image: string;
   quote: string;
 };
+
+export type ITestingEquipment = {
+  title: string;
+  description: string;
+  image: string;
+};
