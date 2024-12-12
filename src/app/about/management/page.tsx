@@ -8,7 +8,7 @@ const Page = () => {
     <div>
       <PageTitle title='Management' />
 
-      <div className='my-10 space-y-20 max-w-[1200px]  mx-auto'>
+      <div className='my-10 space-y-20 max-w-[1400px] mx-auto'>
         {data.map((item, index) => (
           <ManagementCard key={index} data={item} index={index} />
         ))}

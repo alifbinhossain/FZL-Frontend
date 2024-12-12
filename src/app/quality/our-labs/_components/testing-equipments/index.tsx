@@ -8,7 +8,7 @@ const TestingEquipments = () => {
     <div>
       <SectionTitle title='Key Testing Equipments' />
 
-      <div className='my-12 grid grid-cols-3 gap-10'>
+      <div className='my-12 grid grid-cols-3 gap-10 max-w-[1400px]'>
         {data.map((item, index) => (
           <TestingEquipmentCard key={index} data={item} />
         ))}

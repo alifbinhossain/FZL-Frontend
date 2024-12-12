@@ -9,7 +9,7 @@ const SafetyAndRegulation = () => {
     <div>
       <SectionTitle title='Safety And Regulation' />
 
-      <div className='my-12 max-w-[1200px] space-y-10 mx-auto'>
+      <div className='my-12 max-w-[1400px] space-y-10'>
         {data.map((item, index) => (
           <SafetyCard key={index} data={item} index={index} />
         ))}
