@@ -1,15 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
 import Content from './_components/content';
+import PageTitle from '@/components/page-title';
 
 const Page = () => {
   return (
     <div>
-      <h1 className='text-4xl font-poppins text-center capitalize'>
-        A guide to Zipper
-      </h1>
-
-      <div className='my-10 h-[600px] w-full relative'>
+      <PageTitle title='A Guide to Zipper' />
+      <div className='my-6 lg:my-10 aspect-video lg:aspect-auto lg:h-[600px] w-full relative'>
         <Image
           className='object-cover'
           fill
