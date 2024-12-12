@@ -17,7 +17,7 @@ const StandardZipper = () => {
         />
       </div>
 
-      <ul className='list-disc space-y-2'>
+      <ul className='list-disc space-y-2 pl-8'>
         <li>
           The <span className='font-bold'>elements (or “zipper chain”)</span>{' '}
           refer to the teeth or coil that interlock with each other and run

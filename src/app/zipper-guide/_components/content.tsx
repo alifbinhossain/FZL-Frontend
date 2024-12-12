@@ -16,8 +16,8 @@ import FinalNotes from './sections/final-notes';
 
 const Content = () => {
   return (
-    <div className='grid grid-cols-4 gap-10'>
-      <div className='col-span-1'>
+    <div className='grid lg:grid-cols-4 gap-10'>
+      <div className='col-span-1 hidden lg:block'>
         <ContentTable />
       </div>
       <div className='col-span-3 space-y-8'>

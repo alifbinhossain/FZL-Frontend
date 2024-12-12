@@ -25,7 +25,7 @@ const TypesOfZippers = () => {
         </div>
       </div>
 
-      <ul className='list-disc space-y-4'>
+      <ul className='list-disc space-y-4 pl-8'>
         <li>
           <h6 className='text-lg'>
             <span className='font-bold text-accent'>VISLON® Zippers</span> have
