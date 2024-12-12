@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from './section-title';
+import SectionTitle from '../section-title';
 import Image from 'next/image';
 
 const TestingCapabilities = () => {
