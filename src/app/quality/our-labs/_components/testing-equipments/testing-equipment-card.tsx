@@ -26,7 +26,7 @@ const TestingEquipmentCard: React.FC<{ data: ITestingEquipment }> = ({
         </div>
       </CardHeader>
       <CardContent className='space-y-2'>
-        <CardTitle>{data.title}</CardTitle>
+        <CardTitle className='leading-normal'>{data.title}</CardTitle>
         <CardDescription>{data.description}</CardDescription>
       </CardContent>
     </Card>

@@ -1,7 +1,7 @@
 import PageTitle from '@/components/page-title';
 import React from 'react';
 import TestingCapabilities from './_components/testing-capabilities';
-import TestingEquipments from './_components/testing-quipments';
+import TestingEquipments from './_components/testing-equipments';
 import SafetyAndRegulation from './_components/safety-and-regulation';
 
 const Page = () => {

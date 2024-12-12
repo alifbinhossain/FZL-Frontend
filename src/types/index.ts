@@ -16,3 +16,8 @@ export type ITestingEquipment = {
   description: string;
   image: string;
 };
+
+export type ISafetyAndRegulation = {
+  image: string;
+  content: React.ReactNode | string;
+};
