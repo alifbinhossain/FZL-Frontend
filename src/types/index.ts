@@ -26,3 +26,8 @@ export type ICertificate = {
   title: string;
   image: string;
 };
+
+export type ISlide = {
+  content: React.ReactNode;
+  image: string;
+};
