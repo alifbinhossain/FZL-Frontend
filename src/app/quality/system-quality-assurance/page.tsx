@@ -6,6 +6,7 @@ import ProductCertification from './_components/certifications/product-certifica
 import EnvironmentCertification from './_components/certifications/environment-certification';
 import SocialResponsibility from './_components/certifications/social-responsibility';
 import OccupationHealthAndSafety from './_components/certifications/occupation-health-and-safety';
+import PageContainer from '@/components/page-container';
 
 const Page = () => {
   return (
@@ -13,7 +14,7 @@ const Page = () => {
       <PageTitle title='System & Quality Assurance' />
 
       <div className='my-4 '>
-        <p className='text-muted-foreground text-lg'>
+        <p className='text-muted-foreground text-lg '>
           Equipped with various cutting-edge experimental and inspection
           devices, we monitor the whole process ranging from raw materials to
           the finished products, including the examination of the precision of
@@ -27,7 +28,7 @@ const Page = () => {
           these systems.
         </p>
 
-        <div className='mt-10 max-w-[1400px]'>
+        <PageContainer>
           <div className='pb-8 space-y-8'>
             <QualityCertification />
             <ProductCertification />
@@ -36,7 +37,7 @@ const Page = () => {
             <OccupationHealthAndSafety />
           </div>
           <Certificates />
-        </div>
+        </PageContainer>
       </div>
     </div>
   );

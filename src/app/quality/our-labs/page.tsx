@@ -3,16 +3,17 @@ import React from 'react';
 import TestingCapabilities from './_components/testing-capabilities';
 import TestingEquipments from './_components/testing-equipments';
 import SafetyAndRegulation from './_components/safety-and-regulation';
+import PageContainer from '@/components/page-container';
 
 const Page = () => {
   return (
     <div>
       <PageTitle title='Our Laboratory' />
-      <div className='my-10 space-y-10'>
+      <PageContainer>
         <TestingCapabilities />
         <TestingEquipments />
         <SafetyAndRegulation />
-      </div>
+      </PageContainer>
     </div>
   );
 };
