@@ -2,17 +2,18 @@ import React from 'react';
 import PageTitle from '@/components/page-title';
 import data from './_config/management.json';
 import ManagementCard from './_components/management-card';
+import PageContainer from '@/components/page-container';
 
 const Page = () => {
   return (
     <div>
       <PageTitle title='Management' />
 
-      <div className='my-10 space-y-20 max-w-[1400px] mx-auto'>
+      <PageContainer className='space-y-20'>
         {data.map((item, index) => (
           <ManagementCard key={index} data={item} index={index} />
         ))}
-      </div>
+      </PageContainer>
     </div>
   );
 };

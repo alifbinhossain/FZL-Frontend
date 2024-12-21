@@ -9,7 +9,10 @@ const Executives = () => {
       </h2>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8'>
         {data.map((item, index) => (
-          <div key={index} className='bg-gray-50 px-6 py-4 rounded-sm'>
+          <div
+            key={index}
+            className='bg-gray-50 px-6 py-4 rounded-sm shadow-sm'
+          >
             <h4 className='text-xl lg:text-2xl font-medium font-poppins'>
               {item.name}
             </h4>
