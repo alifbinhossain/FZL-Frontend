@@ -36,3 +36,9 @@ export type IFAQ = {
   question: string;
   answer: string | React.ReactNode;
 };
+
+export type IPhilosophy = {
+  title: string;
+  description: string;
+  image: string;
+};
