@@ -1,15 +1,12 @@
 import PageContainer from '@/components/page-container';
-import PageTitle from '@/components/page-title';
 import React from 'react';
+import Hero from './_components/hero';
 
 const Page = () => {
   return (
-    <div>
-      <PageTitle title='Contact Us' />
-      <PageContainer>
-        <div></div>
-      </PageContainer>
-    </div>
+    <PageContainer className='my-0'>
+      <Hero />
+    </PageContainer>
   );
 };
 
