@@ -44,74 +44,90 @@ const ContactForm = () => {
   }
 
   return (
-    <Form {...form}>
-      <div>
-        <h2 className='text-4xl font-poppins font-medium'>Contact Us</h2>
-        <p className='mt-1 text-lg text-muted-foreground'>
-          Our team would love to hear from you!
+    <div>
+      <div className='mb-4'>
+        <h3 className='text-3xl lg:text-5xl font-medium font-poppins'>
+          Enquiry Form
+        </h3>
+        <p className='mt-1 lg:mt-2 text-muted-foreground'>
+          You can reach us anytime
         </p>
       </div>
+      <Form {...form}>
+        <form onSubmit={form.handleSubmit(onSubmit)}>
+          <div className='space-y-4'>
+            <FormField
+              control={form.control}
+              name='name'
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Name</FormLabel>
+                  <FormControl>
+                    <Input placeholder='John Doe' {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name='email'
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Email</FormLabel>
+                  <FormControl>
+                    <Input placeholder='example@.com' {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name='phone'
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Phone</FormLabel>
+                  <FormControl>
+                    <Input
+                      type={'tel'}
+                      placeholder='+123-456-7890'
+                      {...field}
+                    />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name='message'
+              render={({ field }) => (
+                <FormItem>
+                  <FormLabel>Message</FormLabel>
+                  <FormControl>
+                    <Textarea rows={6} {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </div>
+          <Button className='mt-6 w-full' type='submit'>
+            Submit
+          </Button>
 
-      <form onSubmit={form.handleSubmit(onSubmit)} className=' mt-8'>
-        <div className='space-y-4'>
-          <FormField
-            control={form.control}
-            name='name'
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Name</FormLabel>
-                <FormControl>
-                  <Input placeholder='shadcn' {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name='email'
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Email</FormLabel>
-                <FormControl>
-                  <Input placeholder='shadcn' {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name='phone'
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Phone</FormLabel>
-                <FormControl>
-                  <Input type={'tel'} placeholder='+123-456-7890' {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name='message'
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Message</FormLabel>
-                <FormControl>
-                  <Textarea rows={6} {...field} />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-        </div>
-        <Button className='mt-6' type='submit'>
-          Submit
-        </Button>
-      </form>
-    </Form>
+          <small className='text-muted-foreground block mt-4 text-center text-sm'>
+            By contacting us, you agree to our{' '}
+            <span className='text-foreground font-medium'>
+              Terms of service
+            </span>{' '}
+            and{' '}
+            <span className='text-foreground font-medium'>Privacy Policy</span>
+          </small>
+        </form>
+      </Form>
+    </div>
   );
 };
 

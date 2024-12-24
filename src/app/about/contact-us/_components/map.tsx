@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 const Map = () => {
   return (
     <Tabs defaultValue='office' className='w-full  h-full flex flex-col'>
-      <TabsList className='w-full'>
+      <TabsList className='w-full bg-slate-200'>
         <TabsTrigger className='flex-1' value='office'>
           Office
         </TabsTrigger>
