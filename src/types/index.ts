@@ -42,3 +42,11 @@ export type IPhilosophy = {
   description: string;
   image: string;
 };
+
+export type IProduct = {
+  uuid: string;
+  title: string;
+  description: string;
+  image: string;
+  category: string;
+};
