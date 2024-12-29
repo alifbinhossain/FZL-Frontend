@@ -9,7 +9,7 @@ const Page = () => {
     <div>
       <PageTitle title='Management' />
 
-      <PageContainer className='space-y-20'>
+      <PageContainer className='space-y-12 lg:space-y-20'>
         {data.map((item, index) => (
           <ManagementCard key={index} data={item} index={index} />
         ))}

@@ -21,7 +21,12 @@ const Products = () => {
       </div>
 
       <div className='flex justify-center mt-10'>
-        <Link href='/products' className={buttonVariants()}>
+        <Link
+          href='/products'
+          className={buttonVariants({
+            variant: 'accent',
+          })}
+        >
           View All Products
         </Link>
       </div>

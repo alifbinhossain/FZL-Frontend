@@ -42,12 +42,7 @@ const ProductCard: React.FC<{ data: IProduct }> = ({ data }) => {
       </div>
       <CardFooter className='flex justify-center'>
         <Link href={`/products/${data.uuid}`}>
-          <Button
-            variant={'outline'}
-            className='hover:bg-primary hover:text-white'
-          >
-            See Details
-          </Button>
+          <Button variant={'outline'}>See Details</Button>
         </Link>
       </CardFooter>
     </Card>

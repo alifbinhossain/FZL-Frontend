@@ -5,7 +5,7 @@ import PhilosophyCard from './philosophy-card';
 const Philosophy = () => {
   return (
     <div>
-      <h3 className='text-2xl font-poppins bg-primary text-white py-4 px-8 border-l-8 border-accent'>
+      <h3 className='text-2xl font-poppins bg-secondary text-foreground py-4 px-8 border-l-8 border-accent'>
         Philosophy
       </h3>
       <p className='mt-4 text-base leading-relaxed'>

@@ -52,7 +52,7 @@ const NavItem: React.FC<{ item: INavLink; onClick?: () => void }> = ({
                           variant: 'link',
                           className: cn(
                             'w-full justify-start',
-                            isChildActive && 'text-accent '
+                            isChildActive && 'text-accent font-bold'
                           ),
                         })
                       )}
