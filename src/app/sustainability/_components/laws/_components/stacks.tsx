@@ -10,17 +10,17 @@ import LawOfGivingAndHospitality from './law-of-giving-and-hospitality';
 
 const lawsData = [
   {
-    title: 'Law of Responsibility',
+    title: 'Slide 1',
     content: <LawOfResponsibility />,
     theme: 'orange',
   },
   {
-    title: 'Law of Change',
+    title: 'Slide 2',
     content: <LawOfChange />,
     theme: 'green',
   },
   {
-    title: 'Law of Giving and Hospitality',
+    title: 'Slide 3',
     content: <LawOfGivingAndHospitality />,
     theme: 'blue',
   },

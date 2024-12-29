@@ -13,15 +13,14 @@ const Hero = () => {
         <div className='space-y-2'>
           <h6 className='text-sm font-semibold'>WHY FZL</h6>
           <h2 className='text-4xl font-light font-poppins leading-normal'>
-            Our Essence is
+            Lorem, ipsum.
             <br />
-            Design, Speed & Quality
+            Lorem, ipsum dolor.
           </h2>
         </div>
         <p className='text-base leading-relaxed'>
-          We are passionate about design & innovation, are driven by speed and
-          work tirelessly to ensure quality & excellence in all our products &
-          services.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+          possimus similique natus quae maxime sunt.
         </p>
       </div>
     </section>

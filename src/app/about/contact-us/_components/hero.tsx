@@ -47,7 +47,7 @@ const Hero = () => {
                   Ph: +88-02-997744454
                 </p>
                 <p className='text-muted-foreground font-light'>
-                  texbuttons@bd.texfasteners.com
+                  lorem@gmail.com
                 </p>
               </div>
 
@@ -63,7 +63,7 @@ const Hero = () => {
                   Ph: +88-02-997744454
                 </p>
                 <p className='text-muted-foreground font-light'>
-                  texbuttons@bd.texfasteners.com
+                  lorem@gmail.com
                 </p>
               </div>
             </div>

@@ -50,3 +50,17 @@ export type IProduct = {
   image: string;
   category: string;
 };
+
+export type ICompanyProfile = {
+  title: string;
+  image: string;
+  content: React.ReactNode;
+  colSpan?: number;
+};
+
+export type ITestimonial = {
+  name: string;
+  designation: string;
+  image: string;
+  quote: string;
+};

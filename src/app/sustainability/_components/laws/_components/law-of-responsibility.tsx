@@ -5,16 +5,16 @@ const LawOfResponsibility = () => {
     <div className='bg-orange-400 py-40 pl-40 h-full flex'>
       <div className='max-w-[600px]'>
         <h2 className='text-5xl leading-snug text-white'>
-          <span className='font-light italic'>Laws of</span>
+          <span className='font-light italic'>Lorem, ipsum.</span>
           <br />
-          <span className='font-medium'>Responsibility</span>
+          <span className='font-medium'>lorem</span>
         </h2>
         <p className='mt-4 text-base text-white'>
-          This law is based on the philosophy that we are the product of the
-          choices we make and everything that manifests in our life is the
-          direct result of decisions we’ve made. It urges us to wholeheartedly
-          embrace and take responsibility for how we’ve arrived at where we are.
-          Discover how TEX has evolved and arrived where we are today.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
+          sunt quibusdam, quo totam quas culpa quia nulla, qui adipisci, autem
+          inventore vitae a accusamus sint iste. Totam dolorum earum quae
+          aliquid tenetur placeat at ea quaerat debitis laboriosam esse cumque
+          suscipit, eaque illo atque cum iusto dolor error, aperiam ipsa?
         </p>
       </div>
     </div>

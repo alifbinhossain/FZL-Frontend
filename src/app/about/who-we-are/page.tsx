@@ -10,7 +10,7 @@ const Page = () => {
   return (
     <div>
       <PageTitle title='Who We Are' />
-      <PageContainer className='space-y-20'>
+      <PageContainer className='space-y-8 lg:space-y-20'>
         <Hero />
         <CompanyProfile />
         <Directors />

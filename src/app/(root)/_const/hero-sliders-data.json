@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Slide 1",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "image": "/images/home/hero/slide-1.jpg"
+  },
+  {
+    "title": "Slide 2",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "image": "/images/home/hero/slide-2.jpg"
+  },
+  {
+    "title": "Slide 3",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "image": "/images/home/hero/slide-3.jpg"
+  },
+  {
+    "title": "Slide 4",
+    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+    "image": "/images/home/hero/slide-4.jpg"
+  }
+]

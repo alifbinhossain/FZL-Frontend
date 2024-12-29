@@ -25,6 +25,7 @@ const Features = () => {
             <div className='absolute inset-0 bg-black/60 group-hover:bg-black/20 transition-all duration-200 ease-in'></div>
             <div className='relative z-20 text-white flex flex-col justify-center '>
               <h3 className='font-poppins text-2xl '>{feature.title}</h3>
+
               <p className='mt-2 text-white text-base'>{feature.description}</p>
             </div>
           </div>

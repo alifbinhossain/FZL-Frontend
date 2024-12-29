@@ -4,7 +4,7 @@ import NavMenu from '../nav-menu/index.';
 
 const DesktopNavbar = () => {
   return (
-    <aside className='flex-[0_0_300px] border-r p-8 flex flex-col gap-12'>
+    <aside className='hidden flex-[0_0_300px] border-r p-8 lg:flex flex-col gap-12'>
       <BrandLogo />
       <div>
         <NavMenu />
