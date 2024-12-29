@@ -1,10 +1,18 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const BrandLogo = () => {
+const BrandLogo: React.FC<{ onClick?: () => void }> = ({ onClick }) => {
   return (
-    <Link href='/'>
-      <h2 className='text-4xl font-bold text-primary'>FZL</h2>
+    <Link onClick={onClick} href='/'>
+      <div className='w-[80px] lg:w-full relative aspect-video'>
+        <Image
+          className='object-contain'
+          src='/brand-logo.png'
+          alt='logo'
+          fill
+        />
+      </div>
     </Link>
   );
 };
