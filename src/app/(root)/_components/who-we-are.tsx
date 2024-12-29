@@ -7,7 +7,7 @@ const WhoWeAre = () => {
     <SectionContainer>
       <SectionTitle title='Who We Are' />
       <div className='mt-4 '>
-        <p className='text-lg leading-relaxed text-center'>
+        <p className='text-base lg:text-lg leading-relaxed text-center'>
           Fortune Zipper is one of the well-reputed and resourceful companies in
           Bangladesh which has started its journey in 1994. It has sincerely
           carried on its status as the biggest manufacturer of all shorts of

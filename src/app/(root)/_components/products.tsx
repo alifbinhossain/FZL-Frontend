@@ -14,7 +14,7 @@ const Products = () => {
         description='Overall Zipper Solutions Provider for 38+ Years'
       />
 
-      <div className='mt-6 grid grid-cols-1 md:grid-cols-4 gap-4'>
+      <div className='mt-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4'>
         {data.slice(0, 8).map((item, index) => (
           <ProductCard key={index} data={item} />
         ))}

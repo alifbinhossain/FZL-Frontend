@@ -8,7 +8,9 @@ const TestimonialCard: React.FC<{ item: ITestimonial; index: number }> = ({
 }) => {
   return (
     <div
-      className={cn('bg-gray-50 p-8 rounded-lg border w-[400px] space-y-6 m-4')}
+      className={cn(
+        'bg-gray-50 p-4 lg:p-8 rounded-lg border w-[200px] lg:w-[400px] gap-4 lg:gap-6 m-2 lg:m-4 flex flex-col justify-between'
+      )}
     >
       <div>
         <Image
@@ -18,10 +20,10 @@ const TestimonialCard: React.FC<{ item: ITestimonial; index: number }> = ({
           height={30}
           className=''
         />
-        <p className='mt-2'>{item.quote}</p>
+        <p className='mt-2 text-sm lg:text-base'>{item.quote}</p>
       </div>
 
-      <div className='flex items-center gap-4'>
+      <div className='flex flex-col lg:flex-row lg:items-center gap-4'>
         <div className='size-10 relative '>
           <Image
             className='rounded-full object-cover object-center'

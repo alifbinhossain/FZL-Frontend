@@ -17,10 +17,10 @@ import Link from 'next/link';
 
 const ProductCard: React.FC<{ data: IProduct }> = ({ data }) => {
   return (
-    <Card className='w-full bg-white flex flex-col justify-between'>
+    <Card className='w-full max-w-[360px] mx-auto bg-white flex flex-col justify-between'>
       <div>
         <CardHeader className='p-2'>
-          <div className='w-full aspect-square relative'>
+          <div className='w-full  aspect-square relative'>
             <Image
               className='rounded-md object-cover'
               src={data.image}

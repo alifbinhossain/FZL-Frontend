@@ -9,7 +9,7 @@ import CountUp from 'react-countup';
 const Achievements = () => {
   return (
     <SectionContainer>
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {data.map((item, index) => (
           <div
             key={index}
@@ -24,7 +24,7 @@ const Achievements = () => {
             <div>
               <CountUp
                 duration={10}
-                className='text-5xl font-semibold font-poppins'
+                className='text-3xl xl:text-5xl font-semibold font-poppins'
                 decimal=','
                 end={item.value}
                 suffix='+'

@@ -6,7 +6,7 @@ const SectionTitle: React.FC<{
 }> = ({ title, description }) => {
   return (
     <div className='text-center max-w-[600px] mx-auto'>
-      <h2 className='text-4xl font-semibold font-poppins leading-normal'>
+      <h2 className='text-2xl xl:text-4xl font-semibold font-poppins leading-normal'>
         {title}
       </h2>
       {description && (
