@@ -1,6 +1,6 @@
 'use client';
 
-import sliders from '../_const/hero-sliders-data.json';
+import sliders from '../_config/hero-sliders-data.json';
 
 // import Swiper core and required modules
 import {

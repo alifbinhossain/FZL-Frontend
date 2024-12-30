@@ -1,6 +1,6 @@
 import ProductCard from '@/app/products/_components/product-card';
 import React from 'react';
-import data from '@/app/products/_const/products.json';
+import data from '@/app/products/_config/products.json';
 import Link from 'next/link';
 import { buttonVariants } from '@/components/ui/button';
 import SectionTitle from './section-title';

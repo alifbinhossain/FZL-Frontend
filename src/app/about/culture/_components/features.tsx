@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/features-data.json';
+import data from '../_config/features-data.json';
 import Image from 'next/image';
 
 const Features = () => {

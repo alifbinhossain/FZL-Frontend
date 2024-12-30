@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/philosophy-data.json';
+import data from '../_config/philosophy-data.json';
 import PhilosophyCard from './philosophy-card';
 
 const Philosophy = () => {

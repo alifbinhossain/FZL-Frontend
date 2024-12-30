@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 
-import data from '../_const/testimonials-data.json';
+import data from '../_config/testimonials-data.json';
 import TestimonialCard from './testimonial-card';
 import SectionContainer from './section-container';
 import SectionTitle from './section-title';

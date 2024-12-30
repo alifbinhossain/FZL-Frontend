@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { trade_knowledge_faq } from '../_const/faq-data';
+import { trade_knowledge_faq } from '../_config/faq-data';
 
 const TradeKnowledge = () => {
   return (

@@ -3,25 +3,25 @@
 import { cn } from '@/lib/utils';
 import { Play, Plus } from 'lucide-react';
 import React, { useState } from 'react';
-import LawOfResponsibility from './law-of-responsibility';
+import Slide2 from './slide-2';
 import { Button } from '@/components/ui/button';
-import LawOfChange from './law-of-change';
-import LawOfGivingAndHospitality from './law-of-giving-and-hospitality';
+import Slide3 from './slide-3';
+import Slide4 from './slide-4';
 
 const lawsData = [
   {
-    title: 'Slide 1',
-    content: <LawOfResponsibility />,
+    title: 'Water Treatment and Reuse',
+    content: <Slide2 />,
     theme: 'orange',
   },
   {
-    title: 'Slide 2',
-    content: <LawOfChange />,
+    title: 'Resource Reusability',
+    content: <Slide3 />,
     theme: 'green',
   },
   {
-    title: 'Slide 3',
-    content: <LawOfGivingAndHospitality />,
+    title: 'Paperless Operations',
+    content: <Slide4 />,
     theme: 'blue',
   },
 ];

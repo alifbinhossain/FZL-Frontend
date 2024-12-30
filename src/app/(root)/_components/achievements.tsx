@@ -2,7 +2,7 @@
 
 import React from 'react';
 import SectionContainer from './section-container';
-import data from '../_const/achievements-data.json';
+import data from '../_config/achievements-data.json';
 import Image from 'next/image';
 import CountUp from 'react-countup';
 

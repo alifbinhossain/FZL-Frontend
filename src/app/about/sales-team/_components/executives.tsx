@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/sales-executives-data.json';
+import data from '../_config/sales-executives-data.json';
 
 const Executives = () => {
   return (

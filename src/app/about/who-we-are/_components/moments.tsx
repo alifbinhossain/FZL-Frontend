@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/moments-data.json';
+import data from '../_config/moments-data.json';
 
 import MomentCard from './moment-card';
 

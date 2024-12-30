@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { zipper_knowledge_faq } from '../_const/faq-data';
+import { zipper_knowledge_faq } from '../_config/faq-data';
 
 const ZipperKnowledge = () => {
   return (

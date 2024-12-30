@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../_const/directors-data.json';
+import data from '../_config/directors-data.json';
 import Image from 'next/image';
 
 const Directors = () => {

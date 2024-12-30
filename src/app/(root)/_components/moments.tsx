@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionContainer from './section-container';
-import data from '@/app/about/who-we-are/_const/moments-data.json';
+import data from '@/app/about/who-we-are/_config/moments-data.json';
 import MomentCard from '@/app/about/who-we-are/_components/moment-card';
 import SectionTitle from './section-title';
 
