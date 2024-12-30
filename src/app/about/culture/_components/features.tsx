@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 const Features = () => {
   return (
-    <div className='grid grid-cols-3 gap-10'>
+    <div className='grid grid-cols-3 gap-6 2xl:gap-10'>
       {data.map((feature, index) => {
         return (
           <div
             key={index}
-            className='relative p-10 w-full aspect-square group overflow-hidden'
+            className='relative p-10 w-full min-h-[400px] aspect-square group overflow-hidden'
           >
             <div className='absolute inset-0'>
               <Image

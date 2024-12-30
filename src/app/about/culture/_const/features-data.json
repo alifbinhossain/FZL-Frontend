@@ -1,17 +1,17 @@
 [
   {
-    "title": "Lorem ipsum",
-    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Lobortis feugiat himenaeos ultrices, phasellus amet odio phasellus fermentum. Sagittis tempor himenaeos vitae neque orci sapien pretium.",
+    "title": "Quality: Our Promise, Your Assurance",
+    "description": "At Fortune Zipper, we prioritize quality through premium materials and strict checks, ensuring every zipper exceeds expectations.",
     "image": "/images/features/feature-1.jpg"
   },
   {
-    "title": "Lorem ipsum odor amet",
-    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Lobortis feugiat himenaeos ultrices, phasellus amet odio phasellus fermentum. Sagittis tempor himenaeos vitae neque orci sapien pretium.",
+    "title": "Consistency: The Hallmark of Trust",
+    "description": "We deliver consistent excellence, maintaining reliability and trust in every product we create.",
     "image": "/images/features/feature-2.jpg"
   },
   {
-    "title": "Lorem ipsum",
-    "description": "Lorem ipsum odor amet, consectetuer adipiscing elit. Lobortis feugiat himenaeos ultrices, phasellus amet odio phasellus fermentum. Sagittis tempor himenaeos vitae neque orci sapien pretium.",
+    "title": "Commitment: Driving Success Together",
+    "description": "Our commitment drives innovation and lasting partnerships, ensuring success for our clients and us.",
     "image": "/images/features/feature-3.jpg"
   }
 ]

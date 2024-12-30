@@ -6,7 +6,7 @@ const Hero = () => {
       style={{
         backgroundImage: `url('/images/hero.jpg')`,
       }}
-      className={` relative`}
+      className={`relative`}
     >
       <div className='absolute inset-0  bg-gradient-to-r from-black/50 via-black/30 to-black/10 bg-blend-multiply bg-cover bg-center'></div>
       <div className='relative z-10 max-w-[1000px] p-8 md:p-32 xl:p-40 text-white space-y-4'>

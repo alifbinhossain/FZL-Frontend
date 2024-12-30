@@ -8,21 +8,18 @@ const WhoWeAre = () => {
       <SectionTitle title='Who We Are' />
       <div className='mt-4 '>
         <p className='text-base lg:text-lg leading-relaxed text-center'>
-          Fortune Zipper is one of the well-reputed and resourceful companies in
-          Bangladesh which has started its journey in 1994. It has sincerely
-          carried on its status as the biggest manufacturer of all shorts of
-          zipper. Fortune Zipper has a good record of manufacturing good quality
-          products. Most of the sophisticated machineries and equipments are
-          imported from Japan, Korea and Taiwan. The products go through a
-          rigorous process of checking and rechecking before they are
-          delivered.The Company staffs are fully trained in their profession.
-          <br />
-          <br />
-          Fortune Zipper designs, manufactures all sorts of zipper. Fortune
-          Zipper has a good record of manufacturing good quality products. Most
-          of the sophisticated machineries and equipments are imported from
-          Japan, Korea and Taiwan. The products go through a rigorous process of
-          checking and rechecking before they are delivered.
+          Established in 1994, Fortune Zipper Limited has earned its reputation
+          as one of the leading zipper manufacturers in Bangladesh. With decades
+          of expertise, we pride ourselves on delivering exceptional quality and
+          innovative solutions to meet the diverse needs of our clients.
+          Equipped with state-of-the-art machinery sourced from Japan, Korea,
+          and Taiwan, our production processes are meticulously designed to
+          ensure precision and reliability. Every product undergoes rigorous
+          quality control measures, guaranteeing excellence from start to
+          finish. At Fortune Zipper, our dedicated team of professionals brings
+          unparalleled skill and commitment, ensuring we remain at the forefront
+          of the industry, setting benchmarks for quality and customer
+          satisfaction.
         </p>
       </div>
     </SectionContainer>
