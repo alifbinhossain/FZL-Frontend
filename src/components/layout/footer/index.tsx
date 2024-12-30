@@ -8,7 +8,7 @@ import FooterLinks from './_components/footer-links';
 const Footer = () => {
   return (
     <footer className='bg-gray-50 pt-6 pb-4 lg:pt-12 lg:pb-4 border-t'>
-      <PageContainer className='my-0'>
+      <PageContainer className='my-0 lg:my-0 2xl:my-0'>
         <div className='flex flex-col  lg:flex-row justify-between gap-4 lg:gap-8'>
           <div className='lg:w-[400px] '>
             <BrandLogo className=' w-[140px] lg:w-[120px]' />
