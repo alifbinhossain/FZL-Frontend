@@ -27,9 +27,9 @@ const CompanyProfile = () => {
           <BusinessType />
           <ExportMarkets />
           <ExportPercentage />
-          <AnnualSalesVolumes />
+          {/* <AnnualSalesVolumes /> */}
           <FactoryArea />
-          <Capital />
+          {/* <Capital /> */}
           <YearEstablished />
           <MonthlyCapacity />
         </div>

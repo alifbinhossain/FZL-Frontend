@@ -16,7 +16,8 @@ const MobileNavbar = () => {
     <nav
       className={cn(
         'lg:hidden bg-white/70 backdrop-blur-lg px-8 py-3',
-        pathName === '/' ? 'absolute top-0 left-0 right-0 z-50' : ''
+        pathName === '/' ? 'absolute top-0 left-0 right-0 z-50' : '',
+        pathName !== '/' ? 'shadow-lg' : ''
       )}
     >
       <div className='flex items-center justify-between'>

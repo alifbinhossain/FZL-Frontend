@@ -64,3 +64,9 @@ export type ITestimonial = {
   image: string;
   quote: string;
 };
+
+export type IDirector = {
+  name: string;
+  designation: string;
+  image: string;
+};

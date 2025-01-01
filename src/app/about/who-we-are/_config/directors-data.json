@@ -1,32 +1,28 @@
 [
   {
-    "name": "John Smith",
-    "designation": "Chairman of the Board",
-    "image": "/images/directors/1.jpg"
+    "name": "Ahmed Farhad Khan",
+    "designation": "Managing Director",
+    "image": "/human-placeholder.jpg"
   },
   {
-    "name": "Emily Johnson",
-    "designation": "Chief Executive Officer (CEO)",
-    "image": "/images/directors/2.jpg"
+    "name": "Be Be Ayesha Lubna",
+    "designation": "Finance Director",
+    "image": "/human-placeholder.jpg"
   },
   {
-    "name": "Michael Brown",
-    "designation": "Chief Financial Officer (CFO)",
-    "image": "/images/directors/3.jpg"
+    "name": "Nakib Al Kauser",
+    "designation": "Operations Director",
+    "image": "/human-placeholder.jpg"
   },
   {
-    "name": "Sophia Martinez",
-    "designation": "Director of Operations",
-    "image": "/images/directors/4.jpg"
+    "name": "Sazzad Hossain",
+    "designation": "Executive Director",
+    "image": "/human-placeholder.jpg"
   },
+
   {
-    "name": "William Davis",
-    "designation": "Head of Marketing",
-    "image": "/images/directors/5.jpg"
-  },
-  {
-    "name": "Olivia Wilson",
-    "designation": "Board Secretary",
-    "image": "/images/directors/6.jpg"
+    "name": "Ahmed Habib Chowdhury",
+    "designation": "Sales Director",
+    "image": "/human-placeholder.jpg"
   }
 ]
