@@ -3,9 +3,7 @@ import PrimaryCompanyAdvantages from './primary-company-advantages';
 import BusinessType from './business-type';
 import ExportMarkets from './export-markets';
 import ExportPercentage from './export-percentage';
-import AnnualSalesVolumes from './anuual-sales-volumes';
 import FactoryArea from './factory-area';
-import Capital from './capital';
 import YearEstablished from './year-established';
 import MonthlyCapacity from './monthly-capacity';
 import PlantAndMachinery from './plant-and-machinery';
@@ -27,9 +25,7 @@ const CompanyProfile = () => {
           <BusinessType />
           <ExportMarkets />
           <ExportPercentage />
-          {/* <AnnualSalesVolumes /> */}
           <FactoryArea />
-          {/* <Capital /> */}
           <YearEstablished />
           <MonthlyCapacity />
         </div>
