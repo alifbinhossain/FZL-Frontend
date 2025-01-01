@@ -28,7 +28,9 @@ const Hero = () => {
           sed illo nihil cumque ea, a dolorum expedita.
         </p>
 
-        <Button className='mt-8'>Contact Us</Button>
+        <Button className='mt-8' variant={'accent'}>
+          Contact Us
+        </Button>
       </div>
     </div>
   );
