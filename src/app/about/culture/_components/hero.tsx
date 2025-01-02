@@ -13,14 +13,17 @@ const Hero = () => {
         <div className='space-y-2'>
           <h6 className='text-sm font-semibold'>WHY FZL</h6>
           <h2 className='text-4xl font-light font-poppins leading-normal'>
-            Lorem, ipsum.
-            <br />
-            Lorem, ipsum dolor.
+            Quality, Consistency & Commitment
           </h2>
         </div>
         <p className='text-base leading-relaxed'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
-          possimus similique natus quae maxime sunt.
+          The work culture at FZL is truly unique, shaped by the dedication and
+          resilience of our employees. In challenging times and moments of
+          uncertainty, our culture empowers us to make sound decisions, remain
+          agile, and foster trust, enabling us to adapt and discover innovative
+          solutions. A cornerstone of our success is our unwavering commitment
+          to delivering quality—regardless of the size of the order, the client,
+          or the urgency of the delivery.
         </p>
       </div>
     </section>

@@ -13,9 +13,7 @@ const Executives = () => {
             key={index}
             className='bg-gray-50 px-6 py-4 rounded-sm shadow-sm'
           >
-            <h4 className='text-xl lg:text-2xl font-medium font-poppins'>
-              {item.name}
-            </h4>
+            <h4 className='text-xl  font-medium font-poppins'>{item.name}</h4>
             <h6 className='mt-1 text-muted-foreground'>{item.designation}</h6>
           </div>
         ))}
